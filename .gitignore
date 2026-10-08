@@ -1,0 +1,30 @@
+# Data, audio and splits
+data/
+splits/
+*.wav
+
+# Cache and embeddings
+cache/
+*.npz
+*.npy
+.cache/
+
+# Model weights and checkpoints
+*.pt
+*.bin
+*.safetensors
+models/
+
+# Submissions
+submission*.csv
+
+# Notebook and development artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+
+# Reports exclusions (keep deployment_benchmarks.json and ablation_results.csv)
+reports/*.json
+!reports/deployment_benchmarks.json
+reports/figures/
+reports/*.md

@@ -1,0 +1,41 @@
+{
+  "whisper-small": {
+    "encoder_params": 88154112,
+    "weight_size_mb": 922.2,
+    "d_model": 768,
+    "n_layers": 12,
+    "peak_vram_mb": 213.2412109375,
+    "gpu_median_sec": 0.06709897518157959,
+    "gpu_p90_sec": 0.09332175254821778,
+    "cpu_median_sec": 2.0677911043167114,
+    "cpu_clips_tested": 10,
+    "ridge_fit_sec": 0.10110044479370117,
+    "ridge_pred_sec": 0.0
+  },
+  "whisper-medium": {
+    "encoder_params": 307216384,
+    "weight_size_mb": 2914.0,
+    "d_model": 1024,
+    "n_layers": 24,
+    "peak_vram_mb": 632.9306640625,
+    "gpu_median_sec": 0.13948452472686768,
+    "gpu_p90_sec": 0.20871491432189943,
+    "cpu_median_sec": 7.000258207321167,
+    "cpu_clips_tested": 10,
+    "ridge_fit_sec": 0.08733868598937988,
+    "ridge_pred_sec": 0.0029993057250976562
+  },
+  "whisper-large-v3": {
+    "encoder_params": 636968960,
+    "weight_size_mb": 5887.4,
+    "d_model": 1280,
+    "n_layers": 32,
+    "peak_vram_mb": 1271.5048828125,
+    "gpu_median_sec": 0.25075316429138184,
+    "gpu_p90_sec": 0.3817397117614746,
+    "cpu_median_sec": 15.191518306732178,
+    "cpu_clips_tested": 3,
+    "ridge_fit_sec": 0.0691215991973877,
+    "ridge_pred_sec": 0.005141019821166992
+  }
+}

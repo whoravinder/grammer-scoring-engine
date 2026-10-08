@@ -1,0 +1,9 @@
+# Install PyTorch separately matching your CUDA version:
+# pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu118
+numpy==1.26.3
+pandas==2.3.3
+scipy==1.13.1
+scikit-learn==1.8.0
+soundfile==0.13.1
+matplotlib==3.10.8
+transformers==4.57.6
